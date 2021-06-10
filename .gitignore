@@ -1,3 +1,4 @@
+.vscode
 sandbox/
 # Created by https://www.toptal.com/developers/gitignore/api/python,virtualenv,macos
 # Edit at https://www.toptal.com/developers/gitignore?templates=python,virtualenv,macos
@@ -9,7 +10,8 @@ sandbox/
 .LSOverride
 
 # Icon must end with two \r
-Icon
+Icon
+
 
 # Thumbnails
 ._*

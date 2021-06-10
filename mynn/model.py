@@ -64,7 +64,7 @@ class Model:
 
             loss = loss / steps
             acc = acc / steps
-            if not epoch % print_every:
+            if epoch % print_every == 0:
                 print(f'epoch: {epoch+1} acc: {acc:.3f} loss: {loss:.3f} '
                       f'lr: {self.optimizer.current_learning_rate}')
                 if validation_data is not None:

@@ -8,7 +8,7 @@ class Dense:
         self.biases = np.zeros((1, n_neurons))
 
     def forward(self, inputs):
-        # save inputs for later (taking derivative irt weights)
+        # save inputs for later (taking derivative irt. weights)
         self.inputs = inputs
         # populate output for forward feeding
         self.output = np.dot(inputs, self.weights) + self.biases
